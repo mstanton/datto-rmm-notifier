@@ -31,12 +31,12 @@ A comprehensive notification system that monitors critical alerts from Datto RMM
     ┌────▼──────────────────────────┐
     │  Services Layer               │
     ├───────────────────────────────┤
-    │ • Datto API (OAuth 2.0)      │
+    │ • Datto API (OAuth 2.0)       │
     │ • Alert Classifier            │
-    │ • Email Service (Nodemailer) │
-    │ • SMS Service (Twilio)       │
-    │ • Notification Queue (Bull)  │
-    │ • Alert Poller (Cron)        │
+    │ • Email Service (Nodemailer)  │
+    │ • SMS Service (Twilio)        │
+    │ • Notification Queue (Bull)   │
+    │ • Alert Poller (Cron)         │
     └────┬──────────────────────────┘
          │
     ┌────▼────────────┐
